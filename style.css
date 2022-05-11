@@ -46,6 +46,15 @@ body{
     font-size: 40px;
     margin: 0px;
 }
+.github{
+    position: absolute;
+    bottom: 60px;
+    left: 195px;
+}
+.github a:hover{
+    color: #fbff00;
+    text-decoration: underline;
+}
 .cadastrar{
     width: 180px;
     padding: 10px;
