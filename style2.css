@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background-color:rgba(103, 98, 167, 0.692);
+    margin: 0;
+}
+:root{
+    /* cores*/
+    --cor-fundo:rgba(103, 98, 167, 0.692);
+    --cor-degrade: #E738F7, #648DE3;
+    /* fontes*/
+    --fontes-padrao: 'Roboto Mono', monospace;
+}
+fieldset{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 23px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background-color:white;
+    border: 1px solid #648DE3 ; 
+}
+.container-dois{
+    height: 500px;
+}
+label{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-family: var(--fontes-padrao);
+    font-weight: bolder;  
+}
+input{
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    margin-top: 5px;
+    outline: none;
+    background-color:white;  
+}
+select{
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 8px;
+    padding: 2px;
+    outline: none;
+}
+.avatar{
+    width: 300px;
+    height:200px;
+    margin-left: 480px;
+    margin-top: -100px ;
+    border-radius: 50%;
+}
+h2{
+    margin-top: 6px ;
+    font-family: var(--fontes-padrao);
+}
+.input-buttom{
+    width: 150px;
+    padding: 8px;
+    background-image: linear-gradient(to left, #648DE3, #E738F7 );
+}
+.input-buttom:hover{
+    background-image: linear-gradient(to left,  #E738F7, #648DE3);
+    box-shadow: 1px 1px 3px #648DE3 ;
+}
+.container-dois span{
+    display: block;
+    font-size: 14px;
+    margin-top: 30px;
+    font-family:var(--fontes-padrao) ;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #E738F7;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de cadastro</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <input type="hidden" name="dadosusuario">
+        <fieldset class="container-um">
+            <h2>Dados Pessoais</h2><br/>
+            
+            <!--PRIMEIRO NOME-->
+            <label class="label-um" >
+                Primeiro Nome: <br/>
+                <input type="text" name="primeironome" id="" required minlength="2" autofocus>
+            </label>
+            <!--SOBRENOME-->
+            <label >
+                Sobrenome: <br/>
+                <input type="text" name="primeironome" id="" required minlength="2">
+            </label>
+            <!--DATA DE NASCIMENTO-->
+            <label >
+                Data de Nascimento: <br/>
+                <input type="date" name="datadenascimento" id="" required >
+            </label>
+            <!--SEXO-->
+            <label class="label-radio">
+                Sexo: <br/>
+                <input type="radio" name="sexo" id="" required><strong style="color:#648DE3;">Masculino</strong>
+                <input type="radio" name="sexo" id="" required><strong style="color:#E738F7">Feminino</strong>
+            </label>
+            <!--ESTADO-->
+            <label >
+                Região: <br/>
+                <select name="regiao" id="">
+                    <option value=""></option>
+                    <option value="">Norte</option>
+                    <option value="">Nordeste</option>
+                    <option value="">Centro-Oeste</option>
+                    <option value="">Sudeste</option>
+                    <option value="">Sul</option>
+                </select>
+            </label>
+            <!--EMAIL-->
+            <label >
+                Email: <br/>
+                <input type="email" name="email" id="" required>
+            </label>
+            <!--SENHA-->
+            <label >
+                Senha: <br/>
+                <input type="password" name="password" id="" required min="8" pattern="(^[a-zA-Z0-9_.+-@]">
+            </label>
+            <!--CONFIRMAR SENHA-->
+            <label >
+                Confirmar Senha: <br/>
+                <input type="password" name="password" id="" required min="8" pattern="(^[a-zA-Z0-9_.+-@]">
+            </label>
+
+            <label >
+                Avatar: <br/>
+                <input type="file" name="arquivo" id="file" accept="image/*">
+            </label>
+        </fieldset>
+        <fieldset class="container-dois">
+            <h2>Dados Acadêmicos</h2>
+            <!--ESCOLARIDADE-->
+            <label >
+                Escolaridade: <br/>
+                <select name="escolaridade" id="">
+                    <option value=""></option>
+                    <option value="">Ensino Fundamental</option>
+                    <option value="">1° ano do E.M</option>
+                    <option value="">2° ano do E.M</option>
+                    <option value="">3° ano do E.M</option>
+                    <option value="">Ensino Médio Completo</option>
+                </select>
+            </label>
+            <!--QUANTAS VEZES JÁ PRESTOU O VESTIBULAR?-->
+            <label >
+                Quantas vezes já prestou o vestibular? <br/>
+                <select name="tentativas" id="">
+                    <option value=""></option>
+                    <option value="">Nenhuma vez</option>
+                    <option value="">Uma vez</option>
+                    <option value="">Duas vezes</option>
+                    <option value="">Mais de duas vezes (não aguento mais!!)</option>
+                </select>
+            </label>
+            <!--VESTIBULAR DESEJADO-->
+            <label >
+                Vestibular Desejado: <br/>
+                <select name="concurso" id="" >
+                    <option value=""></option>
+                    <option value="">Enem 😖</option>
+                    <option value="">Fuvest 😎</option>
+                    <option value="">Unesp ✌</option>
+                    <option value="">Uerj ❤</option>
+                    <option value="">Particulares 🥳</option>
+                </select>
+            </label>
+            <!--CURSO DESEJADO-->
+            <label >
+                Curso Desejado: <br/>
+                <select name="curso" id="">
+                    <option value=""></option>
+                    <option value="">Medicina</option>
+                    <option value="">Direito</option>
+                    <option value="">Engenharia</option>
+                    <option value="">TI</option>
+                    <option value="">Licenciatura</option>
+                </select>
+            </label>
+            <!--FACULDADE DESEJADA-->
+            <label >
+                Faculdade Desejada: <br/>
+                <select name="faculdade" id="" >
+                    <option value=""></option>
+                    <option value="">UFF</option>
+                    <option value="">UFRJ</option>
+                    <option value="">UERJ</option>
+                    <option value="">FUVEST</option>
+                    <option value="">UFMG</option>
+                </select>
+            </label>
+
+            <input  type="submit" value="Cadastrar" class="input-buttom"><br/>
+            <span>Voltar a página Inicial? <a href="index.html" target="_self" rel="prev">Voltar</a></span>
+        </fieldset>
+    </form>
+   
+    
+</body>
+</html>

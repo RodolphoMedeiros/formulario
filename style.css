@@ -1,0 +1,132 @@
+@keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%; 
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #58AF9C, #2B2D42,#685369, #FCC8B2, #EFA48B );
+    background-size: 300% 300%;
+    animation: color 13s infinite linear;
+    font-family: Arial;
+}
+
+.container{
+    width: calc(100% - 200px);
+    height: calc(100% - 100px);
+    border: 1px solid #cecece;
+    border-radius: 20px;
+    display: flex; 
+}
+.cadastro{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    background-color: #58AF9C;
+    border-radius: 16px 0px 0px 16px;
+    padding-bottom: 50px;
+    color: #fff;
+    
+}
+.cadastro h1{
+    color: #fff;
+    font-size: 40px;
+    margin: 0px;
+}
+.cadastrar{
+    width: 180px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    outline: 0px;
+    background-color: #424B54;
+    color:#fff;
+    font-size: 17px;
+}
+.cadastrar:hover{
+    box-shadow: 0px 0px 2px 2px ;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.login{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0px 16px 16px 0px;
+}
+.login h1{
+    font-size: 40px;
+    margin: 0px 0px 8px 0px;
+    color: #58AF9C;
+}
+.box-social{
+    display: flex;
+}
+.social img{
+    width: 36px;
+    margin: 0px 5px;
+
+}
+.social img:hover{
+    cursor: pointer;
+}
+.line-box{
+    width: 150px;
+    height: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: #3d8575;
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+input{
+    width: 300px;
+    padding: 12px;
+    border-radius: 5px;
+    outline: 0px;
+    border: 2px solid #cecece;
+}
+.entrar{
+    width: 180px;
+    margin-left: 76px;
+    padding: 8px;
+    border: 2px solid #58AF9C;
+    border-radius: 16px;
+    outline: 0px;
+    background-color: #58AF9C;
+    color: #fff;
+    font-size: 17px;
+}
+.entrar:hover{
+    cursor: pointer;
+    background-color: #3d8575;
+}
